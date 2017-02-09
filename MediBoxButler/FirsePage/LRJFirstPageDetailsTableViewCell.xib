@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="KGk-i7-Jjw" customClass="LRJFirstPageDetailsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="天津医药集团******分店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kf-zC-N7N">
+                        <rect key="frame" x="10" y="8" width="233" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="dnS-Cn-zg3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有库存" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahQ-F9-RiM">
+                        <rect key="frame" x="264" y="8" width="48" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="GLL-I9-L54"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天津市*******店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R90-FW-gc6">
+                        <rect key="frame" x="10" y="40" width="106" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="LCq-NF-hwG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="距离我约1.4k米" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dy-yN-Ouu">
+                        <rect key="frame" x="41" y="67" width="96" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag1-A7-gRy">
+                        <rect key="frame" x="257" y="60" width="55" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Jgz-jc-mzO"/>
+                            <constraint firstAttribute="width" constant="55" id="pvw-l2-feH"/>
+                        </constraints>
+                        <state key="normal" title="购买"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="定位.png" translatesAutoresizingMaskIntoConstraints="NO" id="r6D-CR-cDB">
+                        <rect key="frame" x="10" y="67" width="25" height="23"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ahQ-F9-RiM" secondAttribute="trailing" constant="8" id="1kT-CQ-3iK"/>
+                    <constraint firstItem="2Kf-zC-N7N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="2a0-TX-XaW"/>
+                    <constraint firstItem="ahQ-F9-RiM" firstAttribute="leading" secondItem="2Kf-zC-N7N" secondAttribute="trailing" constant="21" id="AXJ-tn-UyO"/>
+                    <constraint firstAttribute="bottom" secondItem="Ag1-A7-gRy" secondAttribute="bottom" constant="2" id="Ed6-fp-CLw"/>
+                    <constraint firstItem="ahQ-F9-RiM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Sac-NB-RH1"/>
+                    <constraint firstItem="R90-FW-gc6" firstAttribute="top" secondItem="2Kf-zC-N7N" secondAttribute="bottom" constant="11" id="chN-WK-fev"/>
+                    <constraint firstItem="2Kf-zC-N7N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="m0s-UV-9kc"/>
+                    <constraint firstItem="R90-FW-gc6" firstAttribute="top" secondItem="2Kf-zC-N7N" secondAttribute="bottom" constant="11" id="oqF-hC-Xum"/>
+                    <constraint firstItem="R90-FW-gc6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="thz-8y-knZ"/>
+                    <constraint firstAttribute="trailing" secondItem="Ag1-A7-gRy" secondAttribute="trailing" constant="8" id="tvG-KY-y7i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="R90-FW-gc6" id="XBm-10-lcX"/>
+                <outlet property="buyButton" destination="Ag1-A7-gRy" id="6Nn-V9-7hI"/>
+                <outlet property="longLabel" destination="2dy-yN-Ouu" id="Csc-ox-Zvn"/>
+                <outlet property="priceLabel" destination="ahQ-F9-RiM" id="igQ-cP-5pG"/>
+                <outlet property="storeLabel" destination="2Kf-zC-N7N" id="dAq-Hp-7M2"/>
+            </connections>
+            <point key="canvasLocation" x="363" y="403.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="定位.png" width="32" height="32"/>
+    </resources>
+</document>
